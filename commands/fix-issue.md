@@ -18,7 +18,7 @@ Use the **gh cli** to fetch the issue title and content from the given github is
 ## 2. Setup git worktree
 
 Create a new git worktree under `.wip/<kebab-case-title>`.
-Create a new branch named `feat:<kebab-case-title>` and checkout to it.
+Create a new branch named `feat-<kebab-case-title>` and checkout to it.
 
 ## 3. Move to the worktree folder
 
