@@ -1,0 +1,5 @@
+repos/
+.claude/
+.obsidian/
+.vscode/
+.DS_Store
