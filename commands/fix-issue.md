@@ -40,7 +40,7 @@ Goal: Correctness > Completeness > Speed
 
 ## 5 Create the PR
 
-After implementing the changes commit the changes with a descriptive message. Then create a PR with the implementation details.
+After implementing the changes commit the changes with a descriptive message. Then create a PR with the implementation details. **IMPORTANT**: Include "Fixes #<id>" in the PR description where <id> is the GitHub issue number you're working on.
 
 ## Output Format
 
