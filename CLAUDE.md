@@ -29,7 +29,18 @@ As work progresses, append important information to that file that you need to r
 
 ## Tools & Scripts
 
-[List any specific tools or scripts you use regularly]
+Available commands:
+- `/epct` - Explore-Plan-Code-Test development methodology
+- `/remember <content>` - Store important information in memories
+- `/idea <content>` - Capture and develop ideas
+- `/project new <name> - <content>` - Start a new project
+- `/archive-workspace` - Create backup archives of workspace
+- `/fix-issue <issue-number>` - GitHub issue workflow
+
+Available agents:
+- `dhh-code-reviewer` - Ruby/JavaScript code reviewer using DHH's standards
+- `web-search` - Web research and information gathering
+- `code-modifier-fast` - Rapid code modifications
 
 ## Usage Notes
 

@@ -47,7 +47,7 @@ cos/
 ├── CLAUDE.md                    # Main configuration (customize this)
 ├── .gitignore                   # Ignore patterns
 ├── agents/                      # Specialized sub-agents
-│   ├── explore-codebase.md      # Code exploration specialist
+│   ├── dhh-code-reviewer.md     # DHH-style code reviewer
 │   ├── web-search.md            # Web research specialist
 │   └── code-modifier-fast.md    # Fast code modification agent
 ├── commands/                    # Custom slash commands
@@ -57,7 +57,9 @@ cos/
 │   ├── remember.md              # Add entries to memories
 │   ├── project.md               # Project management
 │   ├── idea.md                  # Idea management
-│   └── run-deep-search.md       # Deep research workflow
+│   ├── run-deep-search.md       # Deep research workflow
+│   ├── archive-workspace.md     # Archive workspace backups
+│   └── fix-issue.md             # GitHub issue workflow
 ├── output-styles/               # Communication styles
 │   └── example-style.md         # Template communication style
 ├── memories/                    # Persistent information
@@ -86,12 +88,14 @@ cos/
 - `/manage-agent <action> <name>` - Create/update specialized agents
 - `/manage-command <action> <name>` - Create/update custom commands
 - `/run-deep-search <topic>` - Comprehensive research workflow
+- `/archive-workspace` - Create backup archives of workspace
+- `/fix-issue <issue-number>` - GitHub issue workflow with branch creation
 
 ## Agent Reference
 
 ### Available Agents
 
-- **explore-codebase**: Code exploration and pattern identification
+- **dhh-code-reviewer**: Ruby/JavaScript code reviewer using DHH's standards
 - **web-search**: Web research and information gathering
 - **code-modifier-fast**: Rapid code modifications with minimal overhead
 
